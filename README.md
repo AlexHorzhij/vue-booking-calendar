@@ -25,19 +25,19 @@ This project's Git repository is hosted at https://alexhorzhij.github.io/vue-boo
 ## Getting Started
 Follow these steps to set up and run the project:
 
-### Clone the repository:
+- Clone the repository:
 
 git clone https://alexhorzhij.github.io/vue-booking-calendar/
 
-### Navigate to the project directory:
+- Navigate to the project directory:
 
 cd vue-booking-calendar
 
-### Install dependencies:
+- Install dependencies:
 
 npm install
 
-### Run the application:
+- Run the application:
 
 npm run serve
 Open your browser and go to http://localhost:8080 to view the hotel booking calendar.
