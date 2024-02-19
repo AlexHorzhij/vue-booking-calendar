@@ -35,6 +35,7 @@ export default {
       this.$store.commit("setRoomDetails", this.customer);
     },
   },
+  // Defining the necessary styles
   beforeMount() {
     const { week } = this.$store.state;
     this.width = this.cellWidth + 2.4;

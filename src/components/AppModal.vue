@@ -22,7 +22,12 @@ import AppButton from "./AppButton.vue";
 export default {
   name: "app-modal",
   components: { AppButton },
-
+  watch: {
+    "$store.state.currentWeekNumber": {
+      handler: "closeModal",
+      deep: true,
+    },
+  },
   computed: {
     customerData() {
       return this.$store.state.roomDetails;

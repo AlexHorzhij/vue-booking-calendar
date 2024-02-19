@@ -34,9 +34,7 @@ export default {
     },
     onToday() {
       const currentDay = dayjs().startOf("day").format("YYYY-MM-DD");
-      console.log("currentDay: ", currentDay);
       const currentWeek = dayjs(currentDay).week();
-      console.log("currentWeek: ", currentWeek);
       this.$store.commit("setCurrentDay", currentDay);
       this.$store.commit("setWeekNumber", currentWeek);
     },

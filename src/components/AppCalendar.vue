@@ -48,6 +48,8 @@ export default {
       deep: true,
     },
   },
+  // Choosing dates for the desired week
+
   methods: {
     weekDates() {
       const weekDates = [];
@@ -59,6 +61,7 @@ export default {
       }
       this.$store.commit("setWeekDays", weekDates);
     },
+    // Filtering reservations for the desired week
     filterReservations() {
       const reservation = {};
       this.weekDates();
