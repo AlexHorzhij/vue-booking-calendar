@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Premier Suite"
+  },
+  {
+    "id": 2,
+    "name": "Superior Room"
+  },
+  {
+    "id": 3,
+    "name": "Grand Executive"
+  },
+  {
+    "id": 4,
+    "name": "Suite Luxury"
+  },
+  {
+    "id": 5,
+    "name": "Suite Classic Room"
+  },
+  {
+    "id": 6,
+    "name": "Penthouse Suite"
+  }
+]
